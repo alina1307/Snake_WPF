@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+
+        <Canvas Name="paintCanvas" Background="#FFE0D4D4" HorizontalAlignment="Stretch" MaxWidth="642" MaxHeight="350" Margin="0,55,-0.4,0"/>
+        <Button x:Name="ButtonStart" Grid.Row="0"
+                Content="Начать"
+                HorizontalAlignment="Left"
+                Width="219"
+                FontFamily="Tahoma"
+                FontSize="20"
+                FontStyle="Italic"
+                Margin="93,10,0,370" Click="ButtonStart_Click"/>
+    </Grid>
+</Window>
